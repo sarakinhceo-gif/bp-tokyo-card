@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="bpaas-design-system" content="organic-stripe">
+    <meta name="bpaas-design-theme" content="kr-organic-stripe">
+    <meta name="description" content="자동완성 알고리즘은 더 이상 구글의 전유물이 아닙니다. 도메인 신용 한도를 높이는 고신용 도메인 보증 카드로 브랜드 인지도 30% 향상과 트래픽 20% 상승을 경험하세요.">
+    <meta name="keywords" content="자동완성 테스트 키워드, 자동완성 기능 최적화 방법, 자동완성 알고리즘 비교 분석, 자동완성 사용자 경험 개선 팁, 구글 알고리즘 고신용 도메인 보증 카드 발급">
+    <meta name="author" content="card-hakkoku.store">
+    <link rel="canonical" href="https://card-hakkoku.store/guide">
+    <title>가이드 | 구글 알고리즘 고신용 도메인 보증 카드 발급</title>
+    <meta property="og:title" content="구글 알고리즘 고신용 도메인 보증 카드 발급">
+    <meta property="og:description" content="자동완성 알고리즘의 진짜 주인은 누구인가. 구글의 블랙박스를 해체하고 도메인 신용 한도를 폭발시키는 고신용 도메인 보증 카드의 모든 것.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://card-hakkoku.store/guide">
+    <meta property="og:site_name" content="카드 핫코쿠 스토어">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #fafafa;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 0;
+        }
+        /* sticky nav */
+        header {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            z-index: 1000;
+            padding: 12px 0;
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #111;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .logo span {
+            color: #2563eb;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 28px;
+            align-items: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #555;
+            font-size: 0.9rem;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+            transition: color 0.2s ease;
+            position: relative;
+        }
+        nav a:hover {
+            color: #111;
+        }
+        nav a.active {
+            color: #111;
+            font-weight: 600;
+        }
+        nav a.active::after {
+            content: '';
+            position: absolute;
+            bottom: -6px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #2563eb;
+            border-radius: 1px;
+        }
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            z-index: 1001;
+        }
+        .hamburger:hover {
+            opacity: 0.7;
+        }
+        .hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: #111;
+            margin: 5px 0;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+        /* hero section */
+        .hero {
+            padding: 80px 0 60px;
+            background: linear-gradient(165deg, #f9fafb 0%, #ffffff 100%);
+            text-align: center;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .hero h1 {
+            font-size: clamp(2.2rem, 5vw, 3.5rem);
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            color: #0c0c0c;
+            margin-bottom: 20px;
+        }
+        .hero .subtitle {
+            font-size: 1.15rem;
+            color: #555;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            font-weight: 400;
+            letter-spacing: -0.01em;
+        }
+        .hero .cta-group {
+            display: flex;
+            gap: 14px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn-primary {
+            display: inline-block;
+            padding: 14px 32px;
+            background: #111;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: -0.01em;
+            border-radius: 40px;
+            transition: all 0.25s ease;
+            border: 2px solid #111;
+        }
+        .btn-primary:hover {
+            background: #2563eb;
+            border-color: #2563eb;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+        }
+        .btn-secondary {
+            display: inline-block;
+            padding: 14px 32px;
+            background: transparent;
+            color: #111;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: -0.01em;
+            border-radius: 40px;
+            transition: all 0.25s ease;
+            border: 2px solid #ddd;
+        }
+        .btn-secondary:hover {
+            border-color: #111;
+            background: #fff;
+            transform: translateY(-2px);
+        }
+        /* main content sections */
+        .content-section {
+            padding: 70px 0;
+        }
+        .content-section.bg-light {
+            background: #f9fafb;
+        }
+        .section-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            font-weight: 700;
+            color: #2563eb;
+            margin-bottom: 12px;
+        }
+        h2 {
+            font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+            font-weight: 700;
+            letter-spacing: -0.025em;
+            color: #0c0c0c;
+            margin-bottom: 20px;
+            line-height: 1.25;
+        }
+        h3 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #1a1a1a;
+            margin: 30px 0 14px;
+        }
+        p {
+            font-size: 1.05rem;
+            line-height: 1.75;
+            color: #3a3a3a;
+            margin-bottom: 18px;
+        }
+        .highlight-box {
+            background: #ffffff;
+            border-left: 4px solid #2563eb;
+            padding: 24px 28px;
+            margin: 30px 0;
+            border-radius: 0 12px 12px 0;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.04);
+        }
+        .highlight-box p {
+            margin: 0;
+            font-weight: 500;
+            color: #111;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin: 40px 0;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #eee;
+            border-radius: 16px;
+            padding: 32px 24px;
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+            border-color: #ddd;
+        }
+        .card .icon {
+            width: 44px;
+            height: 44px;
+            background: #f0f4ff;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 18px;
+            font-size: 1.3rem;
+        }
+        .card h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -0.015em;
+            color: #111;
+        }
+        .card p {
+            font-size: 0.92rem;
+            color: #555;
+            line-height: 1.6;
+            margin: 0;
+        }
+        /* FAQ */
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            border-bottom: 1px solid #e8e8e8;
+            padding: 24px 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-question {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #
+</body>
+</html>
